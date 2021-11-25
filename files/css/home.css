@@ -11,7 +11,7 @@ table.steelBlueCols td, table.steelBlueCols th {
   padding: 5px 10px;
 }
 table.steelBlueCols tbody td {
-  font-size: 12px;
+  font-size: 20px;
   font-weight: bold;
   color: #FFFFFF;
 }
@@ -65,4 +65,47 @@ table.steelBlueCols tfoot .links {
   color: blue;
   text-decoration: none;
   font-family: 'Oswald', sans-serif;
+}
+/* unvisited link */
+a:link {
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+}
+/* CHANGE THE COLOR SEQUENCE HERE */
+@keyframes rainbow {
+  0% { color: #fc0303 }
+  17% { color: #45f52a }
+  34% { color: #2a7bf5 }
+  51% { color: #2af5e4 }
+  68% { color: #c92af5 }
+  85% { color: #f5dd2a }
+  100% { color: #66655d }
+}
+ 
+/* CHANGE THE ANIMATION SPEED HERE */
+.maintitle {
+  animation-name: rainbow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
